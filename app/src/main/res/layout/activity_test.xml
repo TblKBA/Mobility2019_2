@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="@color/colorPrimary">
+
+    <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/background_light"
+            android:padding="15dp"
+    >
+        <TextView
+                android:text="Номер теста"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/Num" android:layout_margin="8dp"
+                android:textSize="24sp" android:textAlignment="center" android:textColor="@color/colorPrimaryDark"/>
+        <TextView
+                android:text="Вопрос?"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/Ques" android:textSize="24sp"
+                android:textStyle="bold" android:textAlignment="center" android:textColor="@android:color/black"/>
+        <RadioButton
+                android:id="@+id/Var1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ответ №1"
+                android:onClick="radio_button_click"
+                android:textSize="18sp"/>
+        <RadioButton
+                android:id="@+id/Var2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ответ №2"
+                android:onClick="radio_button_click"
+                android:textSize="18sp"/>
+        <RadioButton
+                android:id="@+id/Var3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ответ №3"
+                android:onClick="radio_button_click"
+                android:textSize="18sp"/>
+    </RadioGroup>
+    <Button
+            android:id="@+id/Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Я прогер?"
+            android:textColor="@android:color/background_light" android:background="@android:color/background_dark"
+            android:textSize="30sp"/>
+    <TextView
+            android:id="@+id/Accept" android:layout_width="wrap_content" android:layout_height="4dp"/>
+</LinearLayout>

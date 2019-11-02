@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Твой тест</string>
+    <string name="title_reg">Регистрация</string>
+    <string name="title_login">Авторизация</string>
+    <string name="home_screen">Главный экран</string>
+    <string name="title_test">Вопросики</string>
+    <string name="title_about">О приложении</string>
+    <string name="title_rating">Рейтинги</string>
+    <string name="title_detalrating">Детальная информация</string>
+    <string name="title_result">Результаты теста</string>
+    <string name="title_activity_detalrow">detalrow</string>
+</resources>

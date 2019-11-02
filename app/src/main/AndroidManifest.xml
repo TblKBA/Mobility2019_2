@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.example.lab_2_3">
+
+    <application
+            android:name=".MyApp"
+            android:allowBackup="true"
+            android:icon="@drawable/icontest"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:ignore="GoogleAppIndexingWarning"
+            tools:node="replace">
+        <activity
+                android:name=".detalrow"
+                android:label="@string/title_activity_detalrow"
+                android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+                android:name=".DetalRating"
+                android:label="@string/title_detalrating">
+        </activity>
+        <activity
+                android:name=".Result"
+                android:label="@string/title_result">
+        </activity>
+        <activity
+                android:name=".Rating"
+                android:label="@string/title_rating">
+        </activity>
+        <activity
+                android:name=".Test"
+                android:label="@string/title_test">
+        </activity>
+        <activity
+                android:name=".About"
+                android:label="@string/title_about">
+        </activity>
+        <activity
+                android:name=".HomeScreen"
+                android:label="@string/home_screen">
+        </activity>
+        <activity
+                android:name=".Reg"
+                android:label="@string/title_reg">
+        </activity>
+        <activity
+                android:name=".Login"
+                android:label="@string/title_login">
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
